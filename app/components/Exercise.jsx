@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Exercise = ({exercise}) => {
   return (
@@ -7,7 +8,7 @@ const Exercise = ({exercise}) => {
 }
 
 Exercise.propTypes = {
-  exercise: React.PropTypes.object.isRequired
+  exercise: PropTypes.object.isRequired
 }
 
 export default Exercise;
